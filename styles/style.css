@@ -43,10 +43,10 @@ body {
     list-style:none;
 }
 .content__task,
-.content__button{
+.content__btn{
     outline:none;
 }
-.content__button {
+.content__btn {
     background: none;
     border: 0px;
     color: #888;
@@ -55,7 +55,7 @@ body {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-.content__button:hover {
+.content__btn:hover {
     color: #3a3a3a;
 }
 /* Heading */
@@ -93,7 +93,7 @@ body {
 .content__top-section-task {
     width: 318px;
 }
-.content__top-section-button:hover {
+.content__top-section-btn:hover {
     color: #0fc57c;
 }
 
@@ -123,15 +123,15 @@ body {
 li >    input[type="text"] {
     width: 226px
 }
-.content__button-delete:hover {
+.content__btn-del:hover {
     color: #cf2323;
 }
-.content__button-image {
+.content__btn-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.content__button-image:hover {
+.content__btn-img:hover {
     transform: rotateZ(0);
 }
 
