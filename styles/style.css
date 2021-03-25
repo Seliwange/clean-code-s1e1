@@ -120,7 +120,7 @@ body {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.content__task__text { /* li > input[type="text"] */
     width: 226px
 }
 .content__btn-del:hover {
@@ -142,7 +142,7 @@ li >    input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.content__task__text { /*ul li input[type="text"]*/
     display:none
 }
 
