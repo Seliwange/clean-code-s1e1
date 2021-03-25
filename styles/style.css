@@ -32,7 +32,7 @@ body {
 .content__task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .content__top-section-wrapper {
     display: flex;
@@ -124,7 +124,7 @@ body {
     width: 226px;
 }
 .content__task__text { /* li > input[type="text"] */
-    width: 226px
+    width: 226px;
 }
 .content__btn-del:hover {
     color: #cf2323;
@@ -140,18 +140,18 @@ body {
 
 /* Completed */
 .content__completed-tasks-label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .content__task__text { /*ul li input[type="text"]*/
-    display:none
+    display: none;
 }
 
 .content__edit-mode-task {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .content__edit-mode-label {
