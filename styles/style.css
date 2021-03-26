@@ -129,12 +129,12 @@ body {
 .btn__del:hover {
     color: #cf2323;
 }
-.btn__img {
+.btn__del-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.btn-img:hover {
+.btn__del-img:hover {
     transform: rotateZ(0);
 }
 
